@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+/*google font use kora holo @import er maddome*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*all common style start here*/
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.btn{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    /* margin-top: 32px; */
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+/*all common style end here*/
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 90px;
+}
+/*.banner .banner-text: margin bottom mane holo ai banner-text class a thaka sob element er bottom a 32 px margin diye felo*/
+.banner .banner-text *{
+    margin-bottom: 32px;
+    max-width: 531px;
+}
+/*end here*/
+.banner .banner-text h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* margin-bottom: 32px; */
+}
+.banner .banner-image img{
+    width: 100%;
+    vertical-align: middle;
+    max-height: 600px;
+}
